@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792C23451AF00FE300B64E34 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792C23441AF00FE300B64E34 /* HomeViewController.m */; };
+		792C23481AF00FE300B64E34 /* teste.png in Resources */ = {isa = PBXBuildFile; fileRef = 792C23471AF00FE300B64E34 /* teste.png */; };
 		794784211AEFFAB200DAD94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 794784201AEFFAB200DAD94E /* main.m */; };
 		794784241AEFFAB200DAD94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 794784231AEFFAB200DAD94E /* AppDelegate.m */; };
 		794784271AEFFAB200DAD94E /* Jinkings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 794784251AEFFAB200DAD94E /* Jinkings.xcdatamodeld */; };
 		794784301AEFFAB200DAD94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7947842E1AEFFAB200DAD94E /* Main.storyboard */; };
 		794784321AEFFAB200DAD94E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794784311AEFFAB200DAD94E /* Images.xcassets */; };
-		794784351AEFFAB200DAD94E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794784331AEFFAB200DAD94E /* LaunchScreen.xib */; };
 		794784411AEFFAB200DAD94E /* JinkingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794784401AEFFAB200DAD94E /* JinkingsTests.m */; };
+		7959169B1AEADE6F007EB68D /* Launchscreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795916991AEADE6F007EB68D /* Launchscreen.xib */; };
+		83B1A7B09D49280A885BBFC7 /* libPods-Jinkings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B846BB5412E1FCB9C80C46 /* libPods-Jinkings.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106D151F650052CB3075C04C /* Pods-Jinkings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jinkings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jinkings/Pods-Jinkings.debug.xcconfig"; sourceTree = "<group>"; };
+		65C0ABF3F82B6EBCA22AF590 /* Pods-Jinkings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jinkings.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jinkings/Pods-Jinkings.release.xcconfig"; sourceTree = "<group>"; };
+		792C23431AF00FE300B64E34 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		792C23441AF00FE300B64E34 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		792C23471AF00FE300B64E34 /* teste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teste.png; sourceTree = "<group>"; };
 		7947841B1AEFFAB100DAD94E /* Jinkings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jinkings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7947841F1AEFFAB200DAD94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794784201AEFFAB200DAD94E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,10 +43,11 @@
 		794784261AEFFAB200DAD94E /* Jinkings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jinkings.xcdatamodel; sourceTree = "<group>"; };
 		7947842F1AEFFAB200DAD94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		794784311AEFFAB200DAD94E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		794784341AEFFAB200DAD94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7947843A1AEFFAB200DAD94E /* JinkingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JinkingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7947843F1AEFFAB200DAD94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		794784401AEFFAB200DAD94E /* JinkingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JinkingsTests.m; sourceTree = "<group>"; };
+		7959169A1AEADE6F007EB68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Launchscreen.xib; sourceTree = "<group>"; };
+		86B846BB5412E1FCB9C80C46 /* libPods-Jinkings.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jinkings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B1A7B09D49280A885BBFC7 /* libPods-Jinkings.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +69,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06E177F0C2E970D082A957F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				106D151F650052CB3075C04C /* Pods-Jinkings.debug.xcconfig */,
+				65C0ABF3F82B6EBCA22AF590 /* Pods-Jinkings.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		792C233F1AF00F3800B64E34 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		792C23401AF00F3800B64E34 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		792C23411AF00F3800B64E34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		792C23421AF00F3800B64E34 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				792C23431AF00FE300B64E34 /* HomeViewController.h */,
+				792C23441AF00FE300B64E34 /* HomeViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		792C23461AF00FE300B64E34 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				792C23471AF00FE300B64E34 /* teste.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		794784121AEFFAB100DAD94E = {
 			isa = PBXGroup;
 			children = (
 				7947841D1AEFFAB100DAD94E /* Jinkings */,
 				7947843D1AEFFAB200DAD94E /* JinkingsTests */,
 				7947841C1AEFFAB100DAD94E /* Products */,
+				06E177F0C2E970D082A957F1 /* Pods */,
+				DBA51FEBBD24B19797C3E812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,9 +143,14 @@
 				794784231AEFFAB200DAD94E /* AppDelegate.m */,
 				7947842E1AEFFAB200DAD94E /* Main.storyboard */,
 				794784311AEFFAB200DAD94E /* Images.xcassets */,
-				794784331AEFFAB200DAD94E /* LaunchScreen.xib */,
 				794784251AEFFAB200DAD94E /* Jinkings.xcdatamodeld */,
+				792C23461AF00FE300B64E34 /* images */,
+				792C233F1AF00F3800B64E34 /* Components */,
+				792C23401AF00F3800B64E34 /* Domain */,
+				792C23411AF00F3800B64E34 /* Services */,
+				792C23421AF00F3800B64E34 /* View Controllers */,
 				7947841E1AEFFAB200DAD94E /* Supporting Files */,
+				795916991AEADE6F007EB68D /* Launchscreen.xib */,
 			);
 			path = Jinkings;
 			sourceTree = "<group>";
@@ -117,6 +181,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DBA51FEBBD24B19797C3E812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B846BB5412E1FCB9C80C46 /* libPods-Jinkings.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -124,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 794784441AEFFAB200DAD94E /* Build configuration list for PBXNativeTarget "Jinkings" */;
 			buildPhases = (
+				B2CC132C08D8905ED6EDFB76 /* Check Pods Manifest.lock */,
 				794784171AEFFAB100DAD94E /* Sources */,
 				794784181AEFFAB100DAD94E /* Frameworks */,
 				794784191AEFFAB100DAD94E /* Resources */,
+				2841B5802805732A77CEC287 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,8 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7959169B1AEADE6F007EB68D /* Launchscreen.xib in Resources */,
 				794784301AEFFAB200DAD94E /* Main.storyboard in Resources */,
-				794784351AEFFAB200DAD94E /* LaunchScreen.xib in Resources */,
+				792C23481AF00FE300B64E34 /* teste.png in Resources */,
 				794784321AEFFAB200DAD94E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +287,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2841B5802805732A77CEC287 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jinkings/Pods-Jinkings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CC132C08D8905ED6EDFB76 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		794784171AEFFAB100DAD94E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -220,6 +328,7 @@
 				794784241AEFFAB200DAD94E /* AppDelegate.m in Sources */,
 				794784211AEFFAB200DAD94E /* main.m in Sources */,
 				794784271AEFFAB200DAD94E /* Jinkings.xcdatamodeld in Sources */,
+				792C23451AF00FE300B64E34 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,12 +359,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		794784331AEFFAB200DAD94E /* LaunchScreen.xib */ = {
+		795916991AEADE6F007EB68D /* Launchscreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				794784341AEFFAB200DAD94E /* Base */,
+				7959169A1AEADE6F007EB68D /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Launchscreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +452,7 @@
 		};
 		794784451AEFFAB200DAD94E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106D151F650052CB3075C04C /* Pods-Jinkings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jinkings/Info.plist;
@@ -353,6 +463,7 @@
 		};
 		794784461AEFFAB200DAD94E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C0ABF3F82B6EBCA22AF590 /* Pods-Jinkings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jinkings/Info.plist;
@@ -414,6 +525,7 @@
 				794784461AEFFAB200DAD94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		794784471AEFFAB200DAD94E /* Build configuration list for PBXNativeTarget "JinkingsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +534,7 @@
 				794784491AEFFAB200DAD94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
