@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04E671215DEEDD09F33B32D8"
+               BlueprintIdentifier = "D14118C8DDFE9F0F220B5C09"
                BuildableName = "libPods-Jinkings.a"
                BlueprintName = "Pods-Jinkings"
                ReferencedContainer = "container:Pods.xcodeproj">

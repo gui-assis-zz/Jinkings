@@ -3,8 +3,10 @@ platform :ios, '7.0'
 
 target 'Jinkings' do
 
-pod 'CBZSplashView', '~> 1.0.0' 
 pod 'MWPhotoBrowser'
+pod 'DBImageView', '~> 1.0'
+pod 'REFrostedViewController'
+pod 'DropdownMenu'
 
 end
 

@@ -6,17 +6,23 @@
 // project.
 
 
-// CBZSplashView
-#define COCOAPODS_POD_AVAILABLE_CBZSplashView
-#define COCOAPODS_VERSION_MAJOR_CBZSplashView 1
-#define COCOAPODS_VERSION_MINOR_CBZSplashView 0
-#define COCOAPODS_VERSION_PATCH_CBZSplashView 0
-
 // DACircularProgress
 #define COCOAPODS_POD_AVAILABLE_DACircularProgress
 #define COCOAPODS_VERSION_MAJOR_DACircularProgress 2
 #define COCOAPODS_VERSION_MINOR_DACircularProgress 3
 #define COCOAPODS_VERSION_PATCH_DACircularProgress 1
+
+// DBImageView
+#define COCOAPODS_POD_AVAILABLE_DBImageView
+#define COCOAPODS_VERSION_MAJOR_DBImageView 1
+#define COCOAPODS_VERSION_MINOR_DBImageView 3
+#define COCOAPODS_VERSION_PATCH_DBImageView 2
+
+// DropdownMenu
+#define COCOAPODS_POD_AVAILABLE_DropdownMenu
+#define COCOAPODS_VERSION_MAJOR_DropdownMenu 1
+#define COCOAPODS_VERSION_MINOR_DropdownMenu 0
+#define COCOAPODS_VERSION_PATCH_DropdownMenu 0
 
 // MBProgressHUD
 #define COCOAPODS_POD_AVAILABLE_MBProgressHUD
@@ -35,6 +41,12 @@
 #define COCOAPODS_VERSION_MAJOR_PSTCollectionView 1
 #define COCOAPODS_VERSION_MINOR_PSTCollectionView 2
 #define COCOAPODS_VERSION_PATCH_PSTCollectionView 3
+
+// REFrostedViewController
+#define COCOAPODS_POD_AVAILABLE_REFrostedViewController
+#define COCOAPODS_VERSION_MAJOR_REFrostedViewController 2
+#define COCOAPODS_VERSION_MINOR_REFrostedViewController 4
+#define COCOAPODS_VERSION_PATCH_REFrostedViewController 8
 
 // SDWebImage
 #define COCOAPODS_POD_AVAILABLE_SDWebImage

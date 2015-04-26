@@ -4,12 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Jinkings-CBZSplashView.xcscheme</key>
+		<key>Pods-Jinkings-DACircularProgress.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Jinkings-DACircularProgress.xcscheme</key>
+		<key>Pods-Jinkings-DBImageView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Jinkings-DropdownMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -29,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Jinkings-REFrostedViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Jinkings-SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,37 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>024C088109962BB577D437C3</key>
+		<key>40977C53AED99E54DA25E772</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>04E671215DEEDD09F33B32D8</key>
+		<key>4B76090A703832179F262D5E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>17259F4982E464354C941666</key>
+		<key>66200B7348B57C3A4B042CDC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4776A6213A8D92904BF3C02B</key>
+		<key>6E77EA9471B091140178ED98</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5CFB7F199662C4AC023A91E0</key>
+		<key>AAE7E051A2216DC23651318D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>627D4BC5B9CEA675C2C4BD38</key>
+		<key>C39368F60E369DCAB699311A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F0837696265DD8FCC4B2517D</key>
+		<key>D14118C8DDFE9F0F220B5C09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC62566474405FC68068AE33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD22684B3B01B5ABB2DAF57A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

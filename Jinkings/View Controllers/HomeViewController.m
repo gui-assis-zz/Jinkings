@@ -7,7 +7,6 @@
 //
 
 #import "HomeViewController.h"
-#import <CBZSplashView/CBZSplashView.h>
 
 @interface HomeViewController ()
 
@@ -17,24 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.navigationController setNavigationBarHidden:YES];
-    
-    
-    UIImage *icon = [UIImage imageNamed:@"teste.png"];
-    UIColor *color = [UIColor colorWithRed:198.0/255.0 green:65.0/255.0 blue:48.0/255.0 alpha:1];
-    
-    
-    CBZSplashView *splashView = [[CBZSplashView alloc] initWithIcon:icon backgroundColor:color];
-    
-    splashView.animationDuration = 2.0;
-    
-    [self.view addSubview:splashView];
-    [splashView startAnimation];
+}
+
+- (void)addGradientToView:(UIView *)view
+{
+    CAGradientLayer *gradient = [CAGradientLayer layer];
+    gradient.frame = view.bounds;
+    gradient.colors = @[(id)[[UIColor clearColor] CGColor],
+                        (id)[[UIColor blackColor] CGColor]];
+    [view.layer insertSublayer:gradient atIndex:0];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
+
+
 
 @end

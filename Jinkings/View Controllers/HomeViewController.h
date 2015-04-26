@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+#import <REFrostedViewController/REFrostedViewController.h>
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : BaseViewController
 
 @end
