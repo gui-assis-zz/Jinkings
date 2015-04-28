@@ -10,8 +10,6 @@
 		794784211AEFFAB200DAD94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 794784201AEFFAB200DAD94E /* main.m */; };
 		794784241AEFFAB200DAD94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 794784231AEFFAB200DAD94E /* AppDelegate.m */; };
 		794784271AEFFAB200DAD94E /* Jinkings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 794784251AEFFAB200DAD94E /* Jinkings.xcdatamodeld */; };
-		7947842A1AEFFAB200DAD94E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794784291AEFFAB200DAD94E /* MasterViewController.m */; };
-		7947842D1AEFFAB200DAD94E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7947842C1AEFFAB200DAD94E /* DetailViewController.m */; };
 		794784301AEFFAB200DAD94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7947842E1AEFFAB200DAD94E /* Main.storyboard */; };
 		794784321AEFFAB200DAD94E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794784311AEFFAB200DAD94E /* Images.xcassets */; };
 		794784351AEFFAB200DAD94E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 794784331AEFFAB200DAD94E /* LaunchScreen.xib */; };
@@ -35,10 +33,6 @@
 		794784221AEFFAB200DAD94E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		794784231AEFFAB200DAD94E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		794784261AEFFAB200DAD94E /* Jinkings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jinkings.xcdatamodel; sourceTree = "<group>"; };
-		794784281AEFFAB200DAD94E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		794784291AEFFAB200DAD94E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		7947842B1AEFFAB200DAD94E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		7947842C1AEFFAB200DAD94E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		7947842F1AEFFAB200DAD94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		794784311AEFFAB200DAD94E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		794784341AEFFAB200DAD94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -88,10 +82,6 @@
 			children = (
 				794784221AEFFAB200DAD94E /* AppDelegate.h */,
 				794784231AEFFAB200DAD94E /* AppDelegate.m */,
-				794784281AEFFAB200DAD94E /* MasterViewController.h */,
-				794784291AEFFAB200DAD94E /* MasterViewController.m */,
-				7947842B1AEFFAB200DAD94E /* DetailViewController.h */,
-				7947842C1AEFFAB200DAD94E /* DetailViewController.m */,
 				7947842E1AEFFAB200DAD94E /* Main.storyboard */,
 				794784311AEFFAB200DAD94E /* Images.xcassets */,
 				794784331AEFFAB200DAD94E /* LaunchScreen.xib */,
@@ -227,8 +217,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7947842D1AEFFAB200DAD94E /* DetailViewController.m in Sources */,
-				7947842A1AEFFAB200DAD94E /* MasterViewController.m in Sources */,
 				794784241AEFFAB200DAD94E /* AppDelegate.m in Sources */,
 				794784211AEFFAB200DAD94E /* main.m in Sources */,
 				794784271AEFFAB200DAD94E /* Jinkings.xcdatamodeld in Sources */,

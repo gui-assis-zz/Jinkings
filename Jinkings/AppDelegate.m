@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "DetailViewController.h"
-#import "MasterViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,10 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    [self customizeAppearence];
     return YES;
 }
 
@@ -127,6 +122,21 @@
             abort();
         }
     }
+}
+
+#pragma mark - Methods
+
+-(void) customizeAppearence{
+    
+    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:198.0/255.0 green:65.0/255.0 blue:48.0/255.0 alpha:1]];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:198.0/255.0 green:65.0/255.0 blue:48.0/255.0 alpha:1]];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
+                                                           [UIFont fontWithName:@"BebasNeueRegular" size:24.0], NSFontAttributeName, nil]];
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
 }
 
 @end
